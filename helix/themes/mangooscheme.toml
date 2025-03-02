@@ -1,4 +1,3 @@
-
 "ui.background" = {bg = "bg"}
 "ui.selection" = { fg = "purple", bg = "green"}
 "ui.linenr" = {fg = "light_blue"}
@@ -6,10 +5,17 @@
 "keyword" = {fg = "purple"}
 "variable" = {fg = "pink"}
 "function" = {fg = "light_blue"}
-"type" = {fg = "orange"}
+"type" = {fg = "cherry_pink"}
 "namespace" = { fg = "orange", modifiers = ["bold", "italic"]}
 "constant" ={ fg = "light_purple"}
 "string" = {fg = "teal"}
+"operator" = {fg = "teal"}
+# "punctuation" = {fg = "teal"}
+"ui.virtual.jump-label" = {fg = "orange_2"}
+"ui.virtual.inlay-hint" = {underline = { color = "cherry_pink", style = "curl"}}
+"diff.plus" = {fg = "teal"}
+"diff.minus" = {fg = "cherry_pink"}
+"diff.delta" = {fg = "light_blue"}
 
 [palette]
 bg = "#1c1431"
@@ -17,8 +23,10 @@ purple = "#8d15e3"
 light_purple = "#7d66df"
 pink = "#b849a7"
 orange = "#f7964c"
+orange_2 = "#FCA17D"
 light_blue = "#48afff"
 green = "#00ff7f"
 teal = "#7DE6B7"
+cherry_pink = "#da627d"
 
 
