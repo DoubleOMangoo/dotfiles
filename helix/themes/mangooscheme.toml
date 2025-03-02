@@ -1,0 +1,24 @@
+
+"ui.background" = {bg = "bg"}
+"ui.selection" = { fg = "purple", bg = "green"}
+"ui.linenr" = {fg = "light_blue"}
+"ui.linenr.selected" = {fg = "purple"}
+"keyword" = {fg = "purple"}
+"variable" = {fg = "pink"}
+"function" = {fg = "light_blue"}
+"type" = {fg = "orange"}
+"namespace" = { fg = "orange", modifiers = ["bold", "italic"]}
+"constant" ={ fg = "light_purple"}
+"string" = {fg = "teal"}
+
+[palette]
+bg = "#1c1431"
+purple = "#8d15e3"
+light_purple = "#7d66df"
+pink = "#b849a7"
+orange = "#f7964c"
+light_blue = "#48afff"
+green = "#00ff7f"
+teal = "#7DE6B7"
+
+
