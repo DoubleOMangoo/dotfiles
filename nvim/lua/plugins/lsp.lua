@@ -27,8 +27,15 @@ return
 		config = function()
 			local capabilities = require("blink.cmp").get_lsp_capabilities()
 			local lspconfig = require("lspconfig")
+			local gdscript_config = {
+				capabilities = capabilities,
+				settings = {},
+				cmd = {"ncat", "127.0.0.1", "6005"},
+			}
+			-- gdscript_config['cmd'] = {'ncat', 'localhost', os.getenv('GDScript_Port' or '6005')}
 			lspconfig.lua_ls.setup({ capabilities = capabilities })
 			lspconfig.rust_analyzer.setup({ capabilities = capabilities })
+			lspconfig.gdscript.setup(gdscript_config)
 		end,
 	}
 

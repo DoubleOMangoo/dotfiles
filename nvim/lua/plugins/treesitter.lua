@@ -4,11 +4,11 @@ return
 	build = ":TSUpdate",
 	opts = {
 
-		ensure_installed = { "c", "lua", "vim", "vimdoc", "query", "markdown", "markdown_inline", },
+		ensure_installed = { "c", "lua", "vim", "vimdoc", "query", "markdown", "markdown_inline", "gdscript", "rust"},
 
 		sync_install = false,
 
-		auto_install = true,
+		auto_install = false,
 
 		highlight = { enable = true },
 
