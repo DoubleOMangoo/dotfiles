@@ -7,7 +7,7 @@ language-servers = ["rust-analyzer"]
 command = "rust-analyzer"
 
 [language-server.godot]
-command = "nc" 
+command = "ncat" 
 args = [ "127.0.0.1", "6005"]
 
 [[language]]
