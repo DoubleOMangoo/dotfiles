@@ -1,12 +1,21 @@
 theme = "mangooscheme"
 [editor]
 line-number = "relative"
+bufferline = "always"
 
 [editor.indent-guides]
 render = true
 
 [editor.lsp]
 display-inlay-hints = true
+
+[editor.statusline]
+left = ["mode", "spinner","diagnostics"]
+center = ["file-modification-indicator","file-name","version-control"]
+right = ["selections","register","position","file-encoding"]
+
+[editor.inline-diagnostics]
+cursor-line = "error"
 
 [keys.normal]
 esc = ["collapse_selection","keep_primary_selection"]

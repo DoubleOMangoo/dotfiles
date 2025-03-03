@@ -1,5 +1,6 @@
 "ui.background" = {bg = "bg"}
-"ui.selection" = { fg = "purple", bg = "green"}
+"ui.selection" = {fg = "purple", bg = "light_blue",underline = {color = "cherry_pink", style = "curl"}}
+# "ui.cursor" = { fg = "purple", bg = "light_blue"}
 "ui.linenr" = {fg = "light_blue"}
 "ui.linenr.selected" = {fg = "purple"}
 "keyword" = {fg = "purple"}
@@ -12,10 +13,21 @@
 "operator" = {fg = "teal"}
 # "punctuation" = {fg = "teal"}
 "ui.virtual.jump-label" = {fg = "orange_2"}
-"ui.virtual.inlay-hint" = {underline = { color = "cherry_pink", style = "curl"}}
+"ui.virtual.inlay-hint" = {modifiers = ["bold","italic"]}
 "diff.plus" = {fg = "teal"}
 "diff.minus" = {fg = "cherry_pink"}
 "diff.delta" = {fg = "light_blue"}
+"ui.bufferline" = {fg = "purple"}
+"ui.bufferline.active" = {bg = "test", underline = {style = "curl"}}
+"ui.statusline" = {fg = "purple",bg = "test"}
+"error" = {fg = "cherry_pink"}
+"warning" = {fg = "orange_2"}
+"info" = {fg = "teal"}
+"hint" = {fg = "light_blue"}
+"diagnostic.error" = { underline  ={color = "cherry_pink", style = "curl"}}
+"diagnostic.warning" = { underline  ={color = "orange_2", style = "curl"}}
+"diagnostic.info" = { underline  ={color = "teal", style = "curl"}}
+"diagnostic.hint" = { underline  ={color = "light_blue", style = "curl"}}
 
 [palette]
 bg = "#1c1431"
@@ -28,5 +40,6 @@ light_blue = "#48afff"
 green = "#00ff7f"
 teal = "#7DE6B7"
 cherry_pink = "#da627d"
+test = "#19122B"
 
 
