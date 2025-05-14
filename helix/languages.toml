@@ -16,7 +16,12 @@ name = "gdscript"
 language-servers = [ "godot" ]
 ##################################################
 
-#################### WEB DEV #################### 
+#################### WEB DEV #####################
+
+[language-server.tailwindcss-ls]
+command = "tailwindcss-language-server"
+args = ["--stdio"]
+
 [[language]]
 name = "html"
 language-servers = [ "vscode-html-language-server", "tailwindcss-ls"]
@@ -30,6 +35,6 @@ name = "jsx"
 language-servers = ["typescript-language-server", "tailwindcss-ls"]
 
 [[language]]
-name = "jsx"
+name = "tsx"
 language-servers = ["typescript-language-server", "tailwindcss-ls"]
 
