@@ -16,6 +16,7 @@ config.color_schemes = {
 }
 config.max_fps = 120
 config.default_prog = { "powershell.exe"}
+config.tab_bar_at_bottom = true;
 --config.color_scheme = "Tokyo Night Moon"
 -- and finally, return the configuration to wezterm
 return config

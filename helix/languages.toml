@@ -6,6 +6,7 @@ language-servers = ["rust-analyzer"]
 [language-server.rust-analyzer]
 command = "rust-analyzer"
 
+#################### GAME DEV #################### 
 [language-server.godot]
 command = "ncat" 
 args = [ "127.0.0.1", "6005"]
@@ -13,3 +14,22 @@ args = [ "127.0.0.1", "6005"]
 [[language]]
 name = "gdscript"
 language-servers = [ "godot" ]
+##################################################
+
+#################### WEB DEV #################### 
+[[language]]
+name = "html"
+language-servers = [ "vscode-html-language-server", "tailwindcss-ls"]
+
+[[language]]
+name = "css"
+language-servers = ["vscode-css-language-server", "tailwindcss-ls"]
+
+[[language]]
+name = "jsx"
+language-servers = ["typescript-language-server", "tailwindcss-ls"]
+
+[[language]]
+name = "jsx"
+language-servers = ["typescript-language-server", "tailwindcss-ls"]
+
