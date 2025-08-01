@@ -3,6 +3,8 @@
 # "ui.cursor" = { fg = "purple", bg = "light_blue"}
 "ui.linenr" = {fg = "light_blue"}
 "ui.linenr.selected" = {fg = "purple"}
+"attribute" = {fg = "light_blue"}
+"tag" = {fg = "purple"}
 "keyword" = {fg = "purple"}
 "variable" = {fg = "pink"}
 "function" = {fg = "light_blue"}

@@ -18,23 +18,40 @@ language-servers = [ "godot" ]
 
 #################### WEB DEV #####################
 
-[language-server.tailwindcss-ls]
-command = "tailwindcss-language-server"
-args = ["--stdio"]
+# [language-server.tailwindcss-ls]
+# command = "tailwindcss-language-server"
+# args = ["--stdio"]
+
+# [language-server.emmet-ls]
+# command = "emmet-ls"
+# args = ["--stdio"]
 
 [[language]]
 name = "html"
 language-servers = [ "vscode-html-language-server", "tailwindcss-ls"]
+formatter = { command = "prettier", args = ["--parser","html"]}
+auto-format = true
 
 [[language]]
 name = "css"
 language-servers = ["vscode-css-language-server", "tailwindcss-ls"]
+formatter = { command = "prettier", args = ["--parser","css"]}
+auto-format = true
 
 [[language]]
 name = "jsx"
-language-servers = ["typescript-language-server", "tailwindcss-ls"]
+language-servers = ["typescript-language-server", "tailwindcss-ls", "vscode-eslint-language-server"]
+formatter = { command = "prettier", args = ["--parser","typescript"]}
+auto-format = true
 
 [[language]]
 name = "tsx"
-language-servers = ["typescript-language-server", "tailwindcss-ls"]
-
+language-servers = ["typescript-language-server", "tailwindcss-ls", "vscode-eslint-language-server"]
+formatter = { command = "prettier", args = ["--parser","typescript"]}
+auto-format = true
+##################################################
+[[language]]
+name = "lua"
+language-servers = ["lua-language-server"]
+formatter = { command = "stylua" ,args=["-"]}
+auto-format = true
