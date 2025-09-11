@@ -1,27 +1,36 @@
-"ui.background" = {bg = "bg"}
-"ui.selection" = {fg = "purple", bg = "light_blue",underline = {color = "cherry_pink", style = "curl"}}
-# "ui.cursor" = { fg = "purple", bg = "light_blue"}
-"ui.linenr" = {fg = "light_blue"}
-"ui.linenr.selected" = {fg = "purple"}
+# Syntax
 "attribute" = {fg = "light_blue"}
 "tag" = {fg = "purple"}
 "keyword" = {fg = "purple"}
 "variable" = {fg = "pink"}
 "function" = {fg = "light_blue"}
+"constructor" = {fg = "orange_2"}
 "type" = {fg = "cherry_pink"}
 "namespace" = { fg = "orange", modifiers = ["bold", "italic"]}
 "constant" ={ fg = "light_purple"}
 "string" = {fg = "teal"}
 "operator" = {fg = "teal"}
 # "punctuation" = {fg = "teal"}
+
+# UI
+"ui.background" = {bg = "bg"}
+"ui.selection" = {fg = "light_blue", bg = "purple",underline = {color = "cherry_pink", style = "curl"}}
+"ui.cursor" = { fg = "purple", bg = "light_blue"}
+"ui.cursor.primary" = { fg = "light_blue", bg = "purple"}
+"ui.linenr" = {fg = "light_blue"}
+"ui.linenr.selected" = {fg = "purple"}
 "ui.virtual.jump-label" = {fg = "orange_2"}
 "ui.virtual.inlay-hint" = {modifiers = ["bold","italic"]}
+
+# Git Diffs
 "diff.plus" = {fg = "teal"}
 "diff.minus" = {fg = "cherry_pink"}
 "diff.delta" = {fg = "light_blue"}
 "ui.bufferline" = {fg = "purple"}
 "ui.bufferline.active" = {bg = "test", underline = {style = "curl"}}
 "ui.statusline" = {fg = "purple",bg = "test"}
+
+# Diagnostics
 "error" = {fg = "cherry_pink"}
 "warning" = {fg = "orange_2"}
 "info" = {fg = "teal"}
