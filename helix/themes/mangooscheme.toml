@@ -10,7 +10,7 @@
 "constant" ={ fg = "light_purple"}
 "string" = {fg = "teal"}
 "operator" = {fg = "teal"}
-# "punctuation" = {fg = "teal"}
+"punctuation" = {fg = "teal"}
 
 # UI
 "ui.background" = {bg = "bg"}
@@ -39,6 +39,15 @@
 "diagnostic.warning" = { underline  ={color = "orange_2", style = "curl"}}
 "diagnostic.info" = { underline  ={color = "teal", style = "curl"}}
 "diagnostic.hint" = { underline  ={color = "light_blue", style = "curl"}}
+
+# Markup
+"markup.heading" = "purple"
+"markup.quote" = "cherry_pink"
+"markup.link" = "light_blue"
+"markup.raw" = "cherry_pink"
+"markup.bold" = {modifiers = ["bold"]}
+"markup.italic" = {modifiers = ["italic"]}
+"markup.strikethrough" = {modifiers = ["crossed_out"]}
 
 [palette]
 bg = "#1c1431"
