@@ -1,5 +1,5 @@
-# theme = "mangooscheme"
-theme = "horizon-dark_custom"
+theme = "mangooscheme"
+# theme = "horizon-dark_custom"
 
 [editor]
 line-number = "relative"
