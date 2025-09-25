@@ -43,7 +43,7 @@ config.keys = {
 	{ key = "[", mods = "LEADER", action = act.ActivateTabRelative(-1) },
 	{ key = "]", mods = "LEADER", action = act.ActivateTabRelative(1) },
 	{ key = "t", mods = "LEADER", action = act.ShowTabNavigator },
-	{ key = "a", mods = "LEADER", action = act.ShowLauncherArgs({ flags = "FUZZY|DOMAINS" }) },
+	{ key = "a", mods = "LEADER", action = act.ShowLauncherArgs({ flags = "DOMAINS" }) },
 
 	-- Workspace
 	{ key = "w", mods = "LEADER", action = act.ShowLauncherArgs({ flags = "FUZZY|WORKSPACES" }) },
